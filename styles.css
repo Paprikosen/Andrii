@@ -24,7 +24,7 @@ header .elipse {
 }
 
 nav {
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-wrap: nowrap;
     flex-shrink: 1;
@@ -46,16 +46,17 @@ nav a {
     height: 25px;
 }
 
+
 h1 {
-    margin: 10px auto 30px auto;
+    margin: 15px auto 40px auto;
     text-align: center;
     font-family: 'Unbounded';
     font-weight: 900;
-    font-size: 40px;
+    font-size: 4vw;
     width: 60%;
 }
 
-h1 span {
+span {
     color: #F48668;
 }
 
@@ -69,7 +70,7 @@ h1 span {
     color: #F2EFEA;
     font-family: 'Unbounded';
     font-weight: 5;
-    font-size: 12px;
+    font-size: 0.9vw;
 }
 
 main {
@@ -80,4 +81,46 @@ main {
     width: 50%;
     display: flex;
     margin: auto;
+    margin-bottom: 70px;
+}
+
+.philosophie {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    gap: 30px;
+}
+
+.philosophie h2 {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.left-column {
+    flex: 1 1 auto;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+h3 {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+p {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 100;
+}
+
+.philosophie img {
+    flex: 1 1 auto;
+    width: 40%;    
+    max-width: 700px;
 }
