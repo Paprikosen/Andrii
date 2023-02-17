@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background: #F2EFEA;
+    
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header .elipse {
+    position: absolute;
+    right: 0;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    border: 0px solid black;
+    background: radial-gradient(
+      closest-side ellipse at 75% 15%,
+      rgba(244, 134, 104, 0.3) 0%,
+      rgba(244, 134, 104, 0.3) 90%,
+      transparent 400%
+    );
+}
+
+nav {
+    width: 60%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+nav a {
+    color: black;
+    font-family: "Unbounded";
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#logo {
+    width: auto;
+    height: 25px;
+}
+
+h1 {
+    margin: 10px auto 30px auto;
+    text-align: center;
+    font-family: 'Unbounded';
+    font-weight: 900;
+    font-size: 40px;
+    width: 60%;
+}
+
+h1 span {
+    color: #F48668;
+}
+
+#button {
+    padding: 10px 15px;
+    display: flex;
+    margin: auto;
+    background: #011638;
+    border-radius: 20px;
+    border-color: transparent;
+    color: #F2EFEA;
+    font-family: 'Unbounded';
+    font-weight: 5;
+    font-size: 12px;
+}
+
+main {
+    width: 100%;
+}
+
+.video img {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
